@@ -1,33 +1,52 @@
 <body>
     <?php
     include "php/inc/head.inc.php";
-    include "php/inc/header.inc.php";s
+    include "php/inc/header.inc.php";
     ?>
 
       <!-- ======= Gallery Section HEADER PROMO ======= -->
       <section id="gallery" class="gallery section-bg">
-      <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Promotions</h2>
           <p>Current <span>Promotions</span></p>
         </div>
 
-        <div class="gallery-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
 
-      </div>
+  <br>
+  
+  <div id="promo" class="carousel slide" data-bs-ride="carousel">
+
+<!-- Indicators/dots -->
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#promo" data-bs-slide-to="0" class="active"></button>
+  <button type="button" data-bs-target="#promo" data-bs-slide-to="1"></button>
+  <button type="button" data-bs-target="#promo" data-bs-slide-to="2"></button>
+</div>
+
+<!-- The slideshow/carousel -->
+<div class="carousel-inner" style="height:75%">
+  <div class="carousel-item active">
+    <img src="assets\img\gallery\gallery-1.jpg" alt="pizza promo" class="d-block" style="width:100%">
+  </div>
+  <div class="carousel-item">
+    <img src="assets\img\gallery\gallery-2.jpg" alt="pasta promo" class="d-block" style="width:100%">
+  </div>
+  <div class="carousel-item">
+    <img src="assets\img\gallery\gallery-3.jpg" alt="sides promo" class="d-block" style="width:100%">
+  </div>
+</div>
+
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#promo" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#promo" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+
     <!-- ======= homemenu Section ======= -->
     <section id="chefs" class="chefs section-bg">
       <div class="container" data-aos="fade-up">
@@ -77,6 +96,7 @@
               </div>
             </div>
           </div><!-- End Chefs Member -->
+</div> 
 
 <?php
 include "php/inc/footer.inc.php";

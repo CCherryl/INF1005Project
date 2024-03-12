@@ -12,9 +12,9 @@
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li class="Menu"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Pizza/a></li>
+              <li><a href="#">Pizza</a></li>
               <li><a href="#">Pasta</a></li>
               <li><a href="#">Sides</a></li>
             </ul>
