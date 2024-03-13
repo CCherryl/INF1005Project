@@ -5,7 +5,7 @@
     ?>
 
       <!-- ======= Gallery Section HEADER PROMO ======= -->
-      <section id="gallery" class="gallery section-bg">
+<section id="gallery" class="gallery section-bg">
 
         <div class="section-header">
           <h2>Promotions</h2>
@@ -45,7 +45,7 @@
   <span class="carousel-control-next-icon"></span>
 </button>
 </div>
-
+</section>
 
     <!-- ======= homemenu Section ======= -->
     <section id="chefs" class="chefs section-bg">
@@ -61,7 +61,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="chef-member">
               <div class="member-img">
-                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/imgHome/pizza.png.jpeg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <h4>Pizza</h4>
@@ -74,7 +74,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
           <div class="chef-member">
               <div class="member-img">
-                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/imgHome/pasta.png.jpeg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <h4>Pastas</h4>
@@ -87,7 +87,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="chef-member">
               <div class="member-img">
-                <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/imgHome/wings.png.jpeg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <h4>Sides</h4>
@@ -96,8 +96,9 @@
               </div>
             </div>
           </div><!-- End Chefs Member -->
-</div> 
-
+    </section>
+  </div> 
+</body>
 <?php
 include "php/inc/footer.inc.php";
 ?>

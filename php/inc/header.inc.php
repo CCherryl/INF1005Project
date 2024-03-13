@@ -11,15 +11,14 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#hero">Home</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="index.php"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Pizza</a></li>
               <li><a href="#">Pasta</a></li>
               <li><a href="#">Sides</a></li>
             </ul>
           </li>
-          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="review.php">Reviews</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#orderhist">Order History</a></li>
 
